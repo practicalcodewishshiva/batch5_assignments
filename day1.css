@@ -1,0 +1,58 @@
+.h1TextStyle {
+  background-color: green;
+  color: white;
+}
+
+.box1Style {
+  background-color: white;
+  color: black;
+  padding: 13px;
+  border: 2px solid purple;
+  border-radius: 9px;
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+}
+
+.box2Style {
+  background-color: white;
+  color: black;
+  padding: 13px;
+  border: 2px solid purple;
+  border-radius: 9px;
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+}
+
+.box3Style {
+  background-color: white;
+  color: black;
+  padding: 13px;
+  border: 2px solid purple;
+  border-radius: 9px;
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+}
+
+.box4Style {
+  background-color: white;
+  color: black;
+  padding: 13px;
+  border: 2px solid purple;
+  border-radius: 9px;
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+}
+
+
+
+/* parent div 
+
+style
+
+displa:"flex". parent 
+
+childrens boxes. childrens */
