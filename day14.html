@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My BookMyshow</title>
+  </head>
+
+  <body>
+    <h1>Recommended Movies</h1>
+
+    <div id="display-movies-container">
+    
+    </div>
+  </body>
+  <!-- dynmica ga div para h2 createElemetn() -->
+  <script>
+    // Step 1
+    const movies = [
+      {
+        title: "Telusu Kadha",
+        rating: 9,
+        location: "Bangaore",
+      },
+      {
+        title: "Kantara",
+        rating: 10,
+        location: "Hyderabad",
+      },
+      {
+        title: "OG",
+        rating: 8,
+        location: "Vizag",
+      },
+    ];
+
+    // Step 2
+    const movieContainer = document.getElementById("display-movies-container");
+
+    console.log(movieContainer, "display-movies-container");
+
+    //Step 3
+
+    // dynamic ga div create cheyali ante createElement
+
+    // movie loop
+    movies.forEach(function (copyOfMovies) {
+      let movieCard = document.createElement("div");
+
+      // title add cheyadam
+      let movieTitle = document.createElement("div");
+      movieTitle.textContent =copyOfMovies.title;
+
+      let movieRating = document.createElement("div");
+      movieRating.textContent = copyOfMovies.rating;
+
+        let movieLocation = document.createElement("div");
+      movieLocation.textContent = copyOfMovies.location;
+
+      movieCard.appendChild(movieTitle);
+      movieCard.appendChild(movieRating);
+      movieCard.appendChild(movieLocation)
+
+      movieContainer.appendChild(movieCard);
+    });
+  </script>
+</html>
+
+<!-- real life 100% use cheyaau  -->
