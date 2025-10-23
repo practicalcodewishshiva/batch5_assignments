@@ -3,13 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
   "scripts": {
-    "dev": "vite",
+    "shiva": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.12.2",
+    "bootstrap": "^5.3.8",
+    "d3.js": "^0.0.2-security",
+    "echarts": "^6.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
